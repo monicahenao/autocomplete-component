@@ -1,14 +1,16 @@
 .App {
-  text-align: center;
+  position: relative;
+  width: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  text-size-adjust: unset;
+  text-decoration: underline;
+  color: darkblue;
 }
 
 .App-header {
-  background-color: antiquewhite;
+  background-color: thistle;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
